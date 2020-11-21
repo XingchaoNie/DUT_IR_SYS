@@ -1,7 +1,7 @@
 # DUT_IR_SYS
 DUT信息检索之搜索引擎
 # DUT信息检索课程设计---搜索引擎
-## GitHub链接：
+## GitHub链接：https://github.com/XingchaoNie/DUT_IR_SYS
 ## 语料库语料获取setSearchData.py
 站点：http://sousuo.gov.cn/s.htm?t=zhengcelibrary&q=&p=
 
