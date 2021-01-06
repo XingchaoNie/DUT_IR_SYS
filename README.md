@@ -24,3 +24,9 @@ MySQL环境要求：
 搜索引擎主函数，需在完成语料获取与语料库搭建后进行  
 程序采用tkinter实现简单的GUI界面实现。  
 内部建立三个类：搜索窗口类、结果表单类、结果展示类。  
+## Python类库环境需求  
+pandas  
+numpy  
+pymysql  
+requests  
+bs4  
