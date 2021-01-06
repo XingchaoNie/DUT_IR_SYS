@@ -3,6 +3,7 @@
 @ author:nxc
 @ GitHub:
 @ 获取语料资源存储为CSV格式
+@ 代码仅用于学习
 """
 
 import pandas as pd
@@ -10,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from time import sleep
 from random import randint
+import webbrowser
 
 
 def get_html(url):
@@ -70,7 +72,7 @@ def main():
                 pd_data['time'].append(time)
         except:
             print("第{:d}页访问失败".format(p + 1))
-        sleep(randint(3, 9))            # 随机睡眠程序4~8秒
+        sleep(randint(3, 9))            # 随机睡眠程序3~9秒
     pd_data_frame = pd.DataFrame(data=pd_data, columns=pd_columns)
     pd_data_frame.to_csv('searchData.csv', encoding='utf_8_sig', index=False)
 
